@@ -105,11 +105,12 @@
     }
 
     iframe {
-        width: 24rem;
-        height: 12rem;
+        width: 22rem;
+        height: 11rem;
         border-radius: 2rem;
         border: 2px solid;
     }
+
     .titulo2-parte4 h1, .titulo2-parte4 a{
         font-size: 1rem;
     }
@@ -120,10 +121,11 @@
         flex-direction: column;
     }
     .im1, .im2, .im3, .im4, .im5, .im6 {
-        width: 23rem;
+        width: 20rem;
+        height: 11rem;
     }
     .baixo-porjeto {
-        width: 23rem;
+        width: 20rem;
     }
     .barrastatus {
         background-color: #202024;
@@ -146,19 +148,19 @@
         flex-direction: column;
     }
     .n1e {
-        font-size: 0.9rem;
+        font-size: 0.7rem;
         font-weight: 900;
     }
     .n2e, .n3e {
-        font-size: 0.8rem;
+        font-size: 0.6rem;
     }
     .formacao1 {
         display: flex;
         justify-content: center;
         flex-direction: column;
         margin-top: 1rem;
-        width: 18rem;
-        height: 8rem;
+        width: 13rem;
+        height: 6rem;
     }
     .tudo-parte5 {
         justify-content: center;
@@ -195,6 +197,15 @@
         display: flex;
         flex-direction: column;
         width: inherit;
+    }
+
+    .logo{
+        margin-left: 1rem;
+    }
+    .menu-section.on .menu-toggle {
+        position: absolute;
+        right: 16px;
+        top: 11px;
     }
 }
 
