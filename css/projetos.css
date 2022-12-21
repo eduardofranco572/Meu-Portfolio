@@ -1,0 +1,186 @@
+.titulo-parte4 h1{
+    color: black;
+    margin-top: 2rem;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    font-weight: 600;
+}
+.titulo-parte4{
+    display: flex;
+    justify-content: center;
+
+}
+
+.logo-cor4{
+    color: #00B0DC;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.video{
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+}
+
+iframe{
+    width: 68rem;
+    height: 32rem;
+    border-radius: 2rem;
+    border: 4px solid;
+}
+
+.desenhos{
+    background-image: url(../img/dekorasi-3.svg);
+    background-repeat: no-repeat;
+    background-size: 89rem;
+    background-position: center;
+}
+
+.titulo2-parte4{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.titulo2-parte4 h1{
+    color: black;
+    margin-top: 2rem;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    font-weight: 600;
+    max-width: 40rem;
+    text-align: center;
+}
+.titulo2-parte4 a{
+    color: #00B0DC;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+
+.cards-projeto{
+    display: flex;
+    justify-content: center;
+    /* background-image: url(../img/app-estrelas.png);
+    background-size: 58rem;
+    background-position: center;
+    background-position-x: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat; */
+}
+
+.cards-pr-alinhamento{
+    display: flex;
+    flex-direction: column;
+    width: 68rem;
+    margin-top: 1rem;
+}
+
+.grupo1-projeto, .grupo2-projeto, .grupo3-projeto {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 6rem;
+}
+
+.card1-porjeto{
+    width: 27rem;
+    height: 19rem;
+    border-radius: 2rem 2rem 0rem 0rem;
+}
+
+.baixo-porjeto{
+    background-color: #202024;
+    width: 100%;
+    height: 6rem;
+    margin-top: -1rem;
+    border-radius: 0rem 0rem 2rem 2rem;
+}
+
+
+.dentro-baixo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: -1rem 2rem 0rem 2rem;
+}
+
+.txtsdentro{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+
+}
+
+.sinal{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 600;
+    cursor: pointer;
+    user-select: none;
+}
+
+
+.card1-porjeto img{
+    border-radius: 2rem 2rem 0rem 0rem;
+
+}
+.im1,.im2,.im3,.im4,.im5,.im6{
+    width: 100%;
+    height: 14rem;
+    border-radius: 2rem 2rem 0rem 0rem;
+}
+
+.animado p {
+    color: white;
+    margin-top: -1rem;
+    margin-left: 2rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.acessar {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    align-items: center;
+    cursor: pointer;
+}
+
+.ace{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    
+}
+
+.acessar img{
+    width: 3rem;
+    height: 1.5rem;
+}
+
+.acessar a{
+    color: white;
+    text-decoration: none;
+}
+
+.animado{
+    display: none;
+}
+
+.grupo-projeto{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.wrapper{
+    box-sizing: border-box;
+    padding: 1rem;
+    margin: 1rem;
+    width: calc((100% / 2) - 2rem); /* calco para descontar a margem da largura do box se aumenta a marge tem que ajustar aqui tb */
+}

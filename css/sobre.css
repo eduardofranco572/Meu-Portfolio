@@ -1,0 +1,107 @@
+.titulo-parte2 h1{
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    font-weight: 600;
+}
+.conteiner-parte2{
+    display: flex;
+    flex-direction: column;
+}
+
+.titulo-parte2{
+    display: flex;
+    justify-content: center;
+}
+
+.texto1 p {
+    max-width: 46rem;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: justify;
+}
+
+.sub2-texto1{
+    margin-top: 1rem;
+    max-width: 45rem;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.infos-tudo{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.infos li{
+    list-style: none;
+}
+
+.tipos-info{
+    margin-top: 1rem;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    max-width: 15rem;
+}
+
+.prsd{
+    margin-top: 1rem;
+    color: #00B0DC;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.botao-curriculo{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.botao-cur{
+    width: 11rem;
+    padding: 1rem;
+    background-color: transparent;
+    border: 2px solid #00B0DC;
+    border-radius: 0.3rem;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.img-lada1 img{
+    width: 17rem;
+    height: 19rem;
+    margin-left: -6rem;
+    border-radius: 50%;
+    box-shadow: -10px 0px 13px -7px rgb(206 206 206 / 25%), 10px 0px 13px -7px rgb(206 206 206 / 25%), 1px 4px 10px -2px rgb(206 206 206 / 25%);
+}
+
+.img-lada2 img{
+    width: 22rem;
+    height: 20rem;
+    margin-top: -13rem;
+    margin-left: 5rem;
+    border-radius: 50%;
+    box-shadow: -10px 0px 13px -7px rgb(206 206 206 / 25%), 10px 0px 13px -7px rgb(206 206 206 / 25%), 1px 4px 10px -2px rgb(206 206 206 / 25%);
+}   
+
+
+.alinhamento{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0rem 3rem 0rem 3rem;
+}
+
+.doisemum{
+    display: flex;
+    flex-direction: column;
+}
