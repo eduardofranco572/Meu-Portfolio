@@ -1,3 +1,81 @@
+
+@media (max-width: 1024px){
+    .parte1 {
+        width: 100%;
+        height: 36rem;
+        background-image: url(../img/fundo.jpg);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        border-radius: 0rem 0rem 5rem 5rem;
+    }
+    .minha-img img {
+        width: 12rem;
+    }
+    .img-lada1 img {
+        margin-left: 6rem;
+    }
+    .img-lada2 img {
+        margin-top: -8rem;
+        margin-left: 5rem;
+    }
+    .titulo-parte2 h1 {
+        font-size: 1.5rem;
+    }
+    .parte3 {
+        width: 100%;
+        height: 91rem;
+        background-image: url(../img/night_city_window_rain.jpg);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+    }
+    iframe {
+        width: 50rem;
+        height: 26rem;
+        border-radius: 2rem;
+        border: 4px solid;
+    }
+    .emotes{
+        display: none;
+    }
+
+    .quebra {
+        display: flex;
+        flex-direction: column;
+        width: auto;
+        margin-top: 2rem;
+    }
+
+    .block1-q, .block2-q {
+        flex-direction: column;
+    }
+
+    .baixo-porjeto {
+        width: 24rem;
+        height: 6rem;
+    }
+    .im1, .im2, .im3, .im4, .im5, .im6 {
+        width: 24rem;
+        height: 14rem;
+        border-radius: 2rem 2rem 0rem 0rem;
+    }
+    .wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        box-sizing: border-box;
+        padding: 0rem;
+        margin: 2rem 0rem 0rem 0rem;
+    }
+    .grupo-projeto {
+        justify-content: center;
+    }
+    .grupo-projeto {
+        display: flex;
+        width: 100%;
+    }
+}
+
 @media (max-width: 786px){
 
     .parte1{
@@ -106,13 +184,14 @@
 
     iframe {
         width: 22rem;
-        height: 11rem;
+        height: 15rem;
         border-radius: 2rem;
         border: 2px solid;
     }
 
     .titulo2-parte4 h1, .titulo2-parte4 a{
         font-size: 1rem;
+        max-width: 19rem;
     }
 
     .grupo-projeto {
@@ -204,8 +283,11 @@
     }
     .menu-section.on .menu-toggle {
         position: absolute;
-        right: 16px;
+        right: 0px;
         top: 11px;
+    }
+    .wrapper {
+        display: initial;
     }
 }
 
@@ -218,8 +300,8 @@
         background-repeat: no-repeat;
         background-size: cover;
     }
-}
-@media (max-width: 1024px){
-    
+    .wrapper {
+        display: initial;
+    }
 }
 
