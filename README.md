@@ -7,6 +7,9 @@ Olá, Meu nome é Eduardo e esse é o projeto do meu web site - Portfolio. aonde
     <h1>Meu Site:</h1>
    https://eduardofranco572.github.io/Meu-Portfolio/
    <br>
+   
+   <h1>Imagens do Site</h1>
+   ![](./imgprojeto.jpg)
         
 </div>
 <br>
