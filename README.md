@@ -9,8 +9,10 @@ Olá, Meu nome é Eduardo e esse é o projeto do meu web site - Portfolio. aonde
    <br>
    
    <h1>Imagens do Site</h1>
-   ![](./imgprojeto.jpg)
-        
+   <img src="imgprojeto.jpg">
+  <br>
+  <br>
+   <img src="imgprojeto2.jpg">
 </div>
 <br>
   Aqui são umas das linguagens de progamação que tenho conhecimento. e que utilizo para criar meus sites 💻
