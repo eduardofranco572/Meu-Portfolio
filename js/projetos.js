@@ -1,5 +1,6 @@
 $(document).ready(() => {
     const projetos = ['TCC-ELETRÔNICA', 'Carrossel', 'PlayStation-Dashboard', 'StrangerThings', 'Loja de Roupa', 'TCC-DS']
+    const links = ['https://github.com/eduardofranco572/TCC-ELETRONICA', 'https://github.com/eduardofranco572/Carrossel', 'https://github.com/eduardofranco572/PlayStation-Dashboard', 'https://github.com/eduardofranco572/StrangerThings', 'https://github.com/eduardofranco572/Story_Geek', 'https://github.com/eduardofranco572/TCC-DS']
 
     for (let j = 1; j < 7; j++) {
         let projeto = `
@@ -15,8 +16,8 @@ $(document).ready(() => {
                         </div>
                         <div class="animado" id="animados${j}">
                             <div class="acessar">
-                                <h1 class="ace"><a href="#">Acessar</a></h1>
-                                <a href="#"><img src="img/folder-svgrepo-com.svg"></a>
+                                <h1 class="ace"><a target="_blank" rel="noreferrer" href="${links[j - 1]}">Acessar</a></h1>
+                                <a target="_blank" rel="noreferrer" href="${links[j - 1]}"><img src="img/folder-svgrepo-com.svg"></a>
                             </div>
                         </div>
                     </div>

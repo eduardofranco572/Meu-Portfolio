@@ -2,7 +2,7 @@
     .parte1 {
         width: 100%;
         height: 36rem;
-        background-image: url(../img/fundo.jpg);
+        background-image: url(../img/Of.png);
         background-repeat: no-repeat;
         background-size: 100%;
         border-radius: 0rem 0rem 5rem 5rem;
@@ -89,7 +89,7 @@
     .parte1{
         width: 100%;
         height: 32rem;
-        background-image: url(../img/fundo.jpg);
+        background-image: url(../img/Of.png);
         background-repeat: no-repeat;
         background-size: cover;
         border-radius: 0rem 0rem 3rem 3rem;
@@ -105,8 +105,8 @@
     }
 
     .logo h1 {
-        color: white;
-        font-family: 'Montserrat', sans-serif;
+        color: var(--quaternary-color);
+        font-family: var(--font-family);
         font-size: 22px;
         font-weight: 600;
     }
@@ -118,8 +118,8 @@
         justify-content: space-between;
     }
     .logo-cor {
-        color: #00B0DC;
-        font-family: 'Montserrat', sans-serif;
+        color: var(--secondary-color);
+        font-family: var(--font-family);
         font-size: 22px;
         font-weight: 600;
     }
@@ -150,8 +150,8 @@
     }
 
     .titulo-parte2 h1 {
-        color: black;
-        font-family: 'Montserrat', sans-serif;
+        color: var(--tertiary-color);
+        font-family: var(--font-family);
         font-size: 1.5rem;
         font-weight: 600;
         text-align: center;
@@ -159,8 +159,8 @@
 
     .texto1 p {
         max-width: 18rem;
-        color: black;
-        font-family: 'Montserrat', sans-serif;
+        color: var(--tertiary-color);
+        font-family: var(--font-family);
         font-size: 1rem;
         font-weight: 400;
         text-align: center;
@@ -184,7 +184,7 @@
         flex-direction: column;
         margin: 1rem;
         width: 14rem;
-        background-color: #202024;
+        background-color: var(--primary-color);
         height: 7rem;
         border: 2px solid rgb(85 85 85 / 72%);
         border-radius: 0.5rem;
@@ -215,7 +215,7 @@
         width: 20rem;
     }
     .barrastatus {
-        background-color: #202024;
+        background-color: var(--primary-color);
         display: flex;
         flex-flow: row wrap;
         -webkit-box-align: center;
@@ -275,7 +275,7 @@
     }
 
     footer {
-        background-color: #202024;
+        background-color: var(--primary-color);
         width: 100%;
         height: 54rem;
     }

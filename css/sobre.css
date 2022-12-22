@@ -1,6 +1,6 @@
 .titulo-parte2 h1{
-    color: black;
-    font-family: 'Montserrat', sans-serif;
+    color: var(--tertiary-color);
+    font-family: var(--font-family);
     font-size: 2rem;
     font-weight: 600;
 }
@@ -16,8 +16,8 @@
 
 .texto1 p {
     max-width: 46rem;
-    color: black;
-    font-family: 'Montserrat', sans-serif;
+    color: var(--tertiary-color);
+    font-family: var(--font-family);
     font-size: 1rem;
     font-weight: 400;
     text-align: justify;
@@ -26,8 +26,8 @@
 .sub2-texto1{
     margin-top: 1rem;
     max-width: 45rem;
-    color: black;
-    font-family: 'Montserrat', sans-serif;
+    color: var(--tertiary-color);
+    font-family: var(--font-family);
     font-size: 1rem;
     font-weight: 400;
 }
@@ -43,8 +43,8 @@
 
 .tipos-info{
     margin-top: 1rem;
-    color: black;
-    font-family: 'Montserrat', sans-serif;
+    color: var(--tertiary-color);
+    font-family: var(--font-family);
     font-size: 1rem;
     font-weight: 400;
     max-width: 15rem;
@@ -52,8 +52,8 @@
 
 .prsd{
     margin-top: 1rem;
-    color: #00B0DC;
-    font-family: 'Montserrat', sans-serif;
+    color: var(--secondary-color);
+    font-family: var(--font-family);
     font-size: 1rem;
     font-weight: 700;
 }
@@ -68,14 +68,18 @@
     width: 11rem;
     padding: 1rem;
     background-color: transparent;
-    border: 2px solid #00B0DC;
+    border: 2px solid var(--secondary-color);
     border-radius: 0.3rem;
     cursor: pointer;
-    font-family: 'Montserrat', sans-serif;
+    font-family: var(--font-family);
     font-weight: 600;
     font-size: 14px;
 }
 
+.botao-cur a{
+    color: var(--tertiary-color);
+    text-decoration: none;
+}
 .img-lada1 img{
     width: 17rem;
     height: 19rem;

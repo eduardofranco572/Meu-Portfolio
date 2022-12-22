@@ -4,9 +4,9 @@
     justify-content: center;
 }
 .titulo-parte5 h1{
-    color: black;
+    color: var(--tertiary-color);
     margin-top: 2rem;
-    font-family: 'Montserrat', sans-serif;
+    font-family: var(--font-family);
     font-size: 2rem;
     font-weight: 600;
 }
@@ -17,7 +17,7 @@
     flex-direction: column;
     margin: 3rem;
     width: 25rem;
-    background-color: #202024;
+    background-color: var(--primary-color);
     height: 11rem;
     align-items: center;
     border: 2px solid rgb(85 85 85 / 72%);
@@ -37,8 +37,8 @@
     margin-top: 4rem;
 }
 .n1e{
-    color: white;
-    font-family: 'Montserrat', sans-serif;
+    color: var(--quaternary-color);
+    font-family: var(--font-family);
     font-size: 1.2rem;
     font-weight: 800;
     max-width: 23rem;
@@ -46,8 +46,8 @@
 }
 
 .n2e, .n3e{
-    color: white;
-    font-family: 'Montserrat', sans-serif;
+    color: var(--quaternary-color);
+    font-family: var(--font-family);
     font-size: 1rem;
     max-width: 21rem;
 }

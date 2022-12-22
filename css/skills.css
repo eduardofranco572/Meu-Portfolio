@@ -3,25 +3,25 @@
     justify-content: center;
 }
 .titulo-parte3 h1{
-    color: white;
+    color: var(--quaternary-color);
     margin-top: 2rem;
-    font-family: 'Montserrat', sans-serif;
+    font-family: var(--font-family);
     font-size: 2rem;
     font-weight: 600;
 }
 
 .logo-cor3{
-    color: #00B0DC;
-    font-family: 'Montserrat', sans-serif;
+    color: var(--secondary-color);
+    font-family: var(--font-family);
     font-size: 2rem;
     font-weight: 600;
 }
 
 .texto-parte3 h1{
     margin: 0rem 5rem 0rem 5rem ;
-    color: white;
+    color: var(--quaternary-color);
     margin-top: 2rem;
-    font-family: 'Montserrat', sans-serif;
+    font-family: var(--font-family);
     font-size: 1.5rem;
     font-weight: 600;
 }
@@ -44,7 +44,7 @@
     flex-direction: column;
     margin: 3rem;
     width: 17rem;
-    background-color: #202024;
+    background-color: var(--primary-color);
     height: 7rem;
     border: 2px solid rgb(85 85 85 / 72%);
     border-radius: 0.5rem;
@@ -67,8 +67,8 @@
 }
 .txt2{
     margin-left: 1rem;
-    color: white;
-    font-family: 'Montserrat', sans-serif;
+    color: var(--quaternary-color);
+    font-family: var(--font-family);
     font-size: 17px;
     font-weight: 300;
 }
@@ -77,7 +77,7 @@
     display: flex;
     justify-content: center;
     border-radius: 0px 5px 0px 0.5rem;
-    background-color: #097dea;
+    background-color: var(--quinternary-color);
     text-transform: uppercase;
     width: 4rem;
     height: 2rem;
@@ -91,8 +91,8 @@
 }
 
 .valor2{
-    color: white;
-    font-family: 'Montserrat', sans-serif;
+    color: var(--quaternary-color);
+    font-family: var(--font-family);
     font-weight: 600;
     font-size: 11px;
     text-align: center;
@@ -116,31 +116,31 @@
 .cor-dentro1, .cor-dentro10 {
     width: 80%;
     height: 9px;
-    background-color: #00B0DC;
+    background-color: var(--secondary-color);
     border-radius: 0px 3px 3px 0px;
 }
 .cor-dentro2, .cor-dentro3 {
     width: 90%;
     height: 9px;
-    background-color: #00B0DC;
+    background-color: var(--secondary-color);
     border-radius: 0px 3px 3px 0px;
 }
 .cor-dentro4, .cor-dentro9 {
     width: 40%;
     height: 9px;
-    background-color: #00B0DC;
+    background-color: var(--secondary-color);
     border-radius: 0px 3px 3px 0px;
 }
 .cor-dentro5, .cor-dentro6, .cor-dentro {
     width: 50%;
     height: 9px;
-    background-color: #00B0DC;
+    background-color: var(--secondary-color);
     border-radius: 0px 3px 3px 0px;
 }
 .cor-dentro7, .cor-dentro8 {
     width: 70%;
     height: 9px;
-    background-color: #00B0DC;
+    background-color: var(--secondary-color);
     border-radius: 0px 3px 3px 0px;
 }
 

@@ -1,7 +1,7 @@
 .titulo-parte4 h1{
-    color: black;
+    color: var(--tertiary-color);
     margin-top: 2rem;
-    font-family: 'Montserrat', sans-serif;
+    font-family: var(--font-family);
     font-size: 2rem;
     font-weight: 600;
 }
@@ -12,8 +12,8 @@
 }
 
 .logo-cor4{
-    color: #00B0DC;
-    font-family: 'Montserrat', sans-serif;
+    color: var(--secondary-color);
+    font-family: var(--font-family);
     font-size: 2rem;
     font-weight: 600;
 }
@@ -45,17 +45,17 @@ iframe{
 }
 
 .titulo2-parte4 h1{
-    color: black;
+    color: var(--tertiary-color);
     margin-top: 2rem;
-    font-family: 'Montserrat', sans-serif;
+    font-family: var(--font-family);
     font-size: 2rem;
     font-weight: 600;
     max-width: 40rem;
     text-align: center;
 }
 .titulo2-parte4 a{
-    color: #00B0DC;
-    font-family: 'Montserrat', sans-serif;
+    color: var(--secondary-color);
+    font-family: var(--font-family);
     font-size: 2rem;
     font-weight: 600;
 }
@@ -92,7 +92,7 @@ iframe{
 }
 
 .baixo-porjeto{
-    background-color: #202024;
+    background-color: var(--primary-color);
     width: 100%;
     height: 6rem;
     margin-top: -1rem;
@@ -108,16 +108,16 @@ iframe{
 }
 
 .txtsdentro{
-    color: white;
-    font-family: 'Montserrat', sans-serif;
+    color: var(--quaternary-color);
+    font-family: var(--font-family);
     font-size: 1rem;
     font-weight: 600;
 
 }
 
 .sinal{
-    color: white;
-    font-family: 'Montserrat', sans-serif;
+    color: var(--quaternary-color);
+    font-family: var(--font-family);
     font-size: 2.5rem;
     font-weight: 600;
     cursor: pointer;
@@ -136,10 +136,10 @@ iframe{
 }
 
 .animado p {
-    color: white;
+    color: var(--quaternary-color);
     margin-top: -1rem;
     margin-left: 2rem;
-    font-family: 'Montserrat', sans-serif;
+    font-family: var(--font-family);
 }
 
 .acessar {
@@ -151,8 +151,8 @@ iframe{
 }
 
 .ace{
-    color: white;
-    font-family: 'Montserrat', sans-serif;
+    color: var(--quaternary-color);
+    font-family: var(--font-family);
     font-size: 1rem;
     font-weight: 600;
     
@@ -164,7 +164,7 @@ iframe{
 }
 
 .acessar a{
-    color: white;
+    color: var(--quaternary-color);
     text-decoration: none;
 }
 
