@@ -1,6 +1,6 @@
 $(document).ready(() => {
-    const titulos = ['jQuery', 'JavaScript', 'CSS3', 'HTML5', 'MySQL', 'C++', 'C Sharp', 'React Native', 'Bootstrap', 'Python', 'PHP', 'NodeJs']
-    const niveis = ['MEDIO', 'ALTO', 'ALTO', 'ALTO', 'MEDIO', 'BAIXO', 'BAIXO', 'MEDIO', 'MEDIO', 'BAIXO', 'ALTO', 'BAIXO']
+    const titulos = ['jQuery', 'JavaScript', 'CSS3', 'HTML5', 'MySQL', 'C++', 'C Sharp', 'React Native', 'Bootstrap', 'React', 'PHP', 'NodeJs']
+    const niveis = ['MEDIO', 'ALTO', 'ALTO', 'ALTO', 'MEDIO', 'BAIXO', 'BAIXO', 'MEDIO', 'MEDIO', 'MEDIO', 'ALTO', 'BAIXO']
 
     for (let j = 1; j < 13; j++) {
         let projeto = `
