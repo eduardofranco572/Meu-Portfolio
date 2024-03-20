@@ -1,6 +1,6 @@
 $(document).ready(() => {
-    const projetos = ['TCC-ELETRÔNICA', 'Carrossel', 'PlayStation-Dashboard', 'Streaming_Movie', 'Loja de Roupa', 'TCC-DS']
-    const links = ['https://github.com/eduardofranco572/TCC-ELETRONICA', 'https://github.com/eduardofranco572/Carrossel', 'https://github.com/eduardofranco572/PlayStation-Dashboard', 'https://github.com/eduardofranco572/Streaming_Movie', 'https://github.com/eduardofranco572/Story_Geek', 'https://github.com/eduardofranco572/TCC-DS']
+    const projetos = ['Front-End-Spotify', 'Carrossel', 'PlayStation-Dashboard', 'Streaming_Movie', 'Loja de Roupa', 'TCC-DS']
+    const links = ['https://github.com/eduardofranco572/Front-End-Spotify', 'https://github.com/eduardofranco572/Carrossel', 'https://github.com/eduardofranco572/PlayStation-Dashboard', 'https://github.com/eduardofranco572/Streaming_Movie', 'https://github.com/eduardofranco572/Story_Geek', 'https://github.com/eduardofranco572/TCC-DS']
 
     for (let j = 1; j < 7; j++) {
         let projeto = `
