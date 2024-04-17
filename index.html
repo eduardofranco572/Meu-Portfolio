@@ -19,6 +19,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,900;1,400;1,700;1,900&display=swap" rel="stylesheet">
+
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-3.6.2.min.js"
     integrity="sha256-2krYZKh//PcchRtd+H+VyyQoZ/e3EcrkxhM8ycwASPA=" crossorigin="anonymous"></script>
@@ -26,269 +29,270 @@
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://cdn.jsdelivr.net/gh/StephanWagner/jBox@v1.3.3/dist/jBox.all.min.js"></script>
     <link href="https://cdn.jsdelivr.net/gh/StephanWagner/jBox@v1.3.3/dist/jBox.all.min.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/691ce11c9b.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.1/gsap.min.js"></script>
 
 
     <title>Eduardo</title>
 </head>
-
 <body>
-    <div class="parte1">
-        <div class="menu">
-            <div class="conteiner-menu">
-                <div class="logo">
-                    <h1>EDU<span class="logo-cor">ARDO</span></h1>
-                </div>
-                <div class="menu-section">
-                    <div class="menu-toggle">
-                        <div class="one"></div>
-                        <div class="two"></div>
-                        <div class="three"></div>
+    <main>
+        <div class="parte1">
+            <div class="menu">
+                <div class="conteiner-menu">
+                    <div class="logo">
+                        <h1>EDU<span class="logo-cor">ARDO</span></h1>
                     </div>
+                    <div class="menu-section">
+                        <div class="menu-toggle">
+                            <div class="one"></div>
+                            <div class="two"></div>
+                            <div class="three"></div>
+                        </div>
+                        <ul class="ulmenu">
+                            <li class="texto-menu"><a href="#home">HOME</a></li>
+                            <li class="texto-menu"><a href="#sobre">SOBRE</a></li>
+                            <li class="texto-menu"><a href="#skills">SKILLS</a></li>
+                            <li class="texto-menu"><a href="#projetos">PROJETOS</a></li>
+                            <li class="texto-menu"><a href="#detalhes">DETALHES</a></li>
+                            <li class="texto-menu"><a href="#formacao">FORMAÇÃO</a></li>
+                            <li class="texto-menu"><a href="#contato">CONTATO</a></li>
+                            <div class="modoDarkendWhite">
+                                <input class="btnMode" type="checkbox" id="chec">
+                                <label class="label" for="chec">
+                                    <i class="fas fa-moon"></i>
+                                    <i class="fas fa-sun"></i>
+                                    <div class="ball">
+
+                                    </div>
+                                </label>
+                            </div>
+                            
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="home" id="home">
+                <div class="home-dentro">
+                    <div class="minha-img">
+                        <img src="img/minhafoto.jpg" alt="" srcset="">
+                    </div>
+                    <div class="meu-nome">
+                        <h1> Portfólio Profissional de Eduardo Franco</h1>
+                    </div>
+                    <dav class="texto-animado">
+                        <h2 class="line typing-animation">Desenvolvedor Full Stack</h2>
+                    </dav>
+                    <div class="redes">
+                        <ul class="icons-redes">
+                            <a target="_blank" rel="noreferrer" href="https://www.facebook.com/profile.php?id=100021540135507"><li class="icon1 icon">
+                                <img src="img/svg-icons-redes/facebook-svgrepo-com.svg" alt="" srcset="">
+                            </li></a>
+                            <a target="_blank" rel="noreferrer" href="https://www.instagram.com/eduardofs_02/?hl=pt-br"><li class="icon1 icon">
+                                <img src="img/svg-icons-redes/instagram-svgrepo-com.svg" alt="" srcset="">
+                            </li></a>
+                            <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/eduardo-franco572/"><li class="icon1 icon">
+                                <img src="img/svg-icons-redes/linkedin-svgrepo-com.svg" alt="" srcset="">
+                            </li></a>
+                            <a target="_blank" rel="noreferrer" href="https://github.com/eduardofranco572"><li class="icon1 icon">
+                                <img src="img/svg-icons-redes/github-svgrepo-com.svg" alt="" srcset="">
+                            </li></a>
+                            <a target="_blank" rel="noreferrer" href="mailto:eduardo.f.seco@gmail.com"><li class="icon1 icon">
+                                <img src="img/svg-icons-redes/email-svgrepo-com.svg" alt="" srcset="">
+                            </li></a>
+    
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="parte2" id="sobre">
+            <div class="alinhamento">
+                <div class="conteiner-parte2">
+                    <div class="titulo-parte2">
+                        <h1>DESENVOLVEDOR FULL STACK</h1>
+                    </div>
+                    <div class="texto1">
+                        <p class="sub1-texto1">
+                            Meu nome é Eduardo Franco Seco, Iniciei no mundo da programação em 2021, 
+                            no qual nesse período já obtive um enorme conhecimento e agora início no mercado 
+                            de trabalho com a mente ampla a aprender, e meu foco é ir aprimorando cada vez mais 
+                            meus conhecimentos.
+                        </p>
+                        <p class="sub2-texto1">Tenho principal proficiência nas linguagens:</p>
+                        <div class="linguagensProf" data-aos="fade-up" data-aos-anchor-placement="center-bottom" id="linguagensProf">
+                            <span>JavaScript</span>
+                            <span>JQuery</span>
+                            <span>React.js</span>
+                            <span>Node.js</span>
+                            <span>PHP</span>
+                        </div>
+
+                    </div>
+                    <div class="infos-tudo">
+                        <div class="info-parte2">
+                            <ul class="infos">
+                                <li class="tipos-info"><span class="prsd">Nome:</span> Eduardo Franco Seco</li>
+                                <li class="tipos-info"><span class="prsd">Idade:</span> 21 Anos</li>
+                                <li class="tipos-info"><span class="prsd">Email:</span> eduardo.f.seco@gmail.com</li>
+                            </ul>
+                        </div>
+                        <div class="info2-parte2">
+                            <ul class="infos">
+                                <li class="tipos-info"><span class="prsd">Telefone:</span> +55 19 99130-3806</li>
+                                <li class="tipos-info"><span class="prsd">Endereço:</span> Mogi Mirim - São Paulo - Brasil
+                                </li>
+                                <li class="tipos-info"><span class="prsd">Hobbies:</span> Programar, jogar,
+                                    estudar, ler.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="botao-curriculo">
+                        <button class="botao-cur" id="botao-curriculo"><a href="Currículo Eduardo Franco Seco.docx" download="Currículo Eduardo Franco">Baixar Curriculo</a></button>
+                    </div>
+                </div>
+                <div class="carouselMark">
+                    <div class="doisemum">
+                        <div class="elements1">
+                            <div class="img-lada1">
+                                <span class="tooltip" title="Meu projeto clone Front End Spotify, veja mais sobre na parte Meus Projetos"><img src="img/teste/im2.png"></span>
+                            </div>
+                            <div class="img-lada2">
+                                <span class="tooltip" title="Meu TCC do curso de Desenvolvimento de Sistemas, veja mais sobre na parte Meus Projetos"><img src="img/teste/im1.png"></span>
+                            </div>
+                        </div>
+                        <div class="elements2">
+                            <div class="img-lada1">
+                                <span class="tooltip" title="Meu projeto Front End de um Streaming de filmes, veja mais sobre na parte Meus Projetos"><img src="img/teste/im4.png"></span>
+                            </div>
+                            <div class="img-lada2">
+                                <span class="tooltip" title="Meu projeto de um hotsite de um modelo de carro, veja mais sobre na parte Meus Projetos"><img src="img/teste/im3.png"></span>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="ballCarr">
+                        <span id="beckball"></span>
+                        <span id="nexball"></span>
+                    </div>
+                </div>
                 
-                    <ul class="ulmenu">
-                        <li class="texto-menu"><a href="#home">HOME</a></li>
-                        <li class="texto-menu"><a href="#sobre">SOBRE</a></li>
-                        <li class="texto-menu"><a href="#skills">SKILLS</a></li>
-                        <li class="texto-menu"><a href="#projetos">PROJETOS</a></li>
-                        <li class="texto-menu"><a href="#detalhes">DETALHES</a></li>
-                        <li class="texto-menu"><a href="#formacao">FORMAÇÃO</a></li>
-                        <li class="texto-menu"><a href="#contato">CONTATO</a></li>
-
-                    </ul>
+            </div>
+        </div>
+        <div class="parte3" id="skills">
+            <div class="titulo-parte3">
+                <h1>MINHAS <span class="logo-cor3">SKILLS</span></h1>
+            </div>
+            <div class="conteiner">
+                <div class="texto-parte3">
+                    <h1>LINGUAGENS</h1>
+                </div>
+                <div class="cards">
+                      
                 </div>
             </div>
         </div>
-        <div class="home" id="home">
-            <div class="home-dentro">
-                <div class="minha-img">
-                    <img src="img/minhafoto.jpg" alt="" srcset="">
-                </div>
-                <div class="meu-nome">
-                    <h1> Portfólio Profissional de Eduardo Franco</h1>
-                </div>
-                <dav class="texto-animado">
-                    <h2 class="line typing-animation">Desenvolvedor Full Stack</h2>
-                </dav>
-                <div class="redes">
-                    <ul class="icons-redes">
-                        <a target="_blank" rel="noreferrer" href="https://www.facebook.com/profile.php?id=100021540135507"><li class="icon1 icon">
-                            <img src="img/svg-icons-redes/facebook-svgrepo-com.svg" alt="" srcset="">
-                        </li></a>
-                        <a target="_blank" rel="noreferrer" href="https://www.instagram.com/eduardofs_02/?hl=pt-br"><li class="icon1 icon">
-                            <img src="img/svg-icons-redes/instagram-svgrepo-com.svg" alt="" srcset="">
-                        </li></a>
-                        <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/eduardo-franco572/"><li class="icon1 icon">
-                            <img src="img/svg-icons-redes/linkedin-svgrepo-com.svg" alt="" srcset="">
-                        </li></a>
-                        <a target="_blank" rel="noreferrer" href="https://github.com/eduardofranco572"><li class="icon1 icon">
-                            <img src="img/svg-icons-redes/github-svgrepo-com.svg" alt="" srcset="">
-                        </li></a>
-                        <a target="_blank" rel="noreferrer" href="mailto:eduardo.f.seco@gmail.com"><li class="icon1 icon">
-                            <img src="img/svg-icons-redes/email-svgrepo-com.svg" alt="" srcset="">
-                        </li></a>
-
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
-    <br>
-    <br>
-    <br>
-    <div class="parte2" id="sobre">
-        <div class="alinhamento">
-
-            <div class="conteiner-parte2">
-                <div class="titulo-parte2">
-                    <h1>DESENVOLVEDOR FULL STACK</h1>
-                </div>
-
-                <div class="texto1">
-                    <p class="sub1-texto1">Meu nome é Eduardo Franco Seco e início no mercado de trabalho com a mente ampla a
-                        aprender, e dar o melhor de mim para realizar todas as tarefas atribuídas.</p>
-                    <p class="sub2-texto1">Iniciei no mundo da programação a um ano e meio, no qual já obtive um enorme
-                        conhecimento. Meu foco inicial é ser um Desenvolvedor Front End, e ir aprimorando cada vez mais
-                        meus conhecimentos. Tenho proficiência nas linguagens HTML5, CSS3, Javascript, JQuery, PHP, entre
-                        outras.</p>
-                </div>
-
-                <div class="infos-tudo">
-                    <div class="info-parte2">
-                        <ul class="infos">
-                            <li class="tipos-info"><span class="prsd">Nome:</span> Eduardo Franco Seco</li>
-                            <li class="tipos-info"><span class="prsd">Idade:</span> 21 Anos</li>
-                            <li class="tipos-info"><span class="prsd">Email:</span> eduardo.f.seco@gmail.com</li>
-                        </ul>
-                    </div>
-                    <div class="info2-parte2">
-                        <ul class="infos">
-                            <li class="tipos-info"><span class="prsd">Telefone:</span> +55 19 99130-3806</li>
-                            <li class="tipos-info"><span class="prsd">Endereço:</span> Mogi Mirim - São Paulo - Brasil
-                            </li>
-                            <li class="tipos-info"><span class="prsd">Hobbies:</span> Programar, jogar,
-                                estudar, ler.</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="botao-curriculo">
-                    <button class="botao-cur" id="botao-curriculo"><a href="Currículo Eduardo Franco Seco.docx" download="Currículo Eduardo Franco">Baixar Curriculo</a></button>
-                </div>
-            </div>
-            <div class="doisemum">
-                <div class="img-lada1">
-                    <span class="tooltip" title="Meu TCC do curso de Eletrônica, veja mais sobre na parte Meus Projetos"><img src="img/tcc-eletro.jpeg"></span>
-                </div>
-                <div class="img-lada2">
-                    <span class="tooltip" title="Meu TCC do curso de Desenvolvimento de Sistemas, veja mais sobre na parte Meus Projetos"><img src="img/tcc-ds.jpeg"></span>
-                    
-                </div>
-            </div>
-        </div>
-    </div>
-    <br>
-    <br>
-    <br>
-
-    <div class="parte3" id="skills">
-        <div class="titulo-parte3">
-            <h1>MINHAS <span class="logo-cor3">SKILLS</span></h1>
-        </div>
-        <div class="conteiner">
-            <div class="texto-parte3">
-                <h1>LINGUAGENS</h1>
-            </div>
-
-            <div class="cards">
-                  
-            </div>
-        </div>
-    </div>
-    <br>
-    <br>
-    <br>
-    <div class="parte4" id="projetos">
-        <div class="desenhos">
+        <div class="parte4" id="projetos">
             <div class="titulo-parte4">
                 <h1>MEUS <span class="logo-cor4">PROJETOS</span></h1>
             </div>
-            <div class="video">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/ZLG46XJxBEs"
-                    title="YouTube video player" frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen></iframe>
+            <div class="titulo2-parte4">
+                <h1>Alguns dos meus projetos listados no meu <a target="_blank" rel="noreferrer" href="https://github.com/eduardofranco572">Github</a>.</h1>
             </div>
-
-            <div class="svgs">
-                <div class="svg1">
-                    <img src="img/" alt="">
-                </div>
-            </div>
-        </div>
-
-        <div class="titulo2-parte4">
-            <h1>Alguns dos meus projetos listados no meu <a target="_blank" rel="noreferrer" href="https://github.com/eduardofranco572">Github</a>, espero que gostem.</h1>
-        </div>
-
-        <div class="cards-projeto">
-            <div class="cards-pr-alinhamento">
-                <div class="grupo-projeto">
-                </div>
-            </div>
-        </div>
-    </div>
-    </div>
-    <div class="barrastatus" id="detalhes">
-        <div class="status1">
-            <div class="conteudo1">
-                <div class="dentro-cont">
-                    <img class="icons-cont" src="img/book-svgrepo-com.svg" alt="">
-                    <h1><span class="tooltip" title="Estão listados mais de 30 projetos no meu GitHub">+30</span></h1>
-                    <div class="mensagem-cont" id="click">
-                        <p>PROJETOS</p>
+            <div class="cards-projeto">
+                <div class="cards-pr-alinhamento">
+                    <div class="grupo-projeto">
                     </div>
                 </div>
             </div>
-
         </div>
-        <div class="status2">
-            <div class="conteudo1">
-                <div class="dentro-cont">
-                    <img class="icons-cont" src="img/timer-svgrepo-com.svg" alt="">
-                    <h1><span class="tooltip" title="Tenho mais de 2 ano de conhecimento como desenvolvedor!">+2</span></h1>
-                    <div class="mensagem-cont" id="click2">
-                        <p>TEMPO</p>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-        <div class="status3">
-            <div class="conteudo1">
-                <div class="dentro-cont">
-                    <img class="icons-cont" src="img/graduation-svgrepo-com.svg" alt="">
-                    <h1><span class="tooltip" title="Já realizei ao todo 25 cursos durante esse período de 1 ano e meio, sendo 2 cursos técnicos presenciais e os outros 23 cursos foram realizado online em plataformas de ensino, sendo elas: alura, udemy entre outras.">25</span></h1>
-                    <div class="mensagem-cont" id="click3">
-                        <p>CURSOS</p>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-
-    </div>
-
-    <div class="parte5" id="formacao">
-
-        <div class="titulo-parte5">
-            <h1>MINHA <span class="logo-cor4">FORMAÇÃO</span></h1>
-        </div>
-
-        <div class="tudo-parte5">
-            <div class="quebra">
-                <div class="block1-q">
-                    <div data-aos="zoom-in-right">
-                        <div class="formacao1">
-                            <h1 class="n1e">Ensino Médio Técnico</h1>
-                            <h1 class="n2e">Etec Euro Albino de Souza</h1>
-                            <h1 class="n3e">3 anos, 2020-2022</h1>
-                        </div>
-                    </div>
-                    <div data-aos="zoom-in-left">
-                        <div class="formacao1">
-                            <h1 class="n1e">Técnico em Eletrônica </h1>
-                            <h1 class="n2e">Etec Euro Albino de Souza</h1>
-                            <h1 class="n3e">3 anos, 2020-2022</h1>
-                        </div>
-                    </div>
-                </div>
-                <div class="block2-q">
-                    <div data-aos="zoom-in-right">
-                        <div class="formacao1">
-                            <h1 class="n1e">Técnico em Desenvolvimento de Sistemas</h1>
-                            <h1 class="n2e">Etec Euro Albino de Souza</h1>
-                            <h1 class="n3e">1 ano e meio, 2021-2022</h1>
-                        </div>
-                    </div>
-                    <div data-aos="zoom-in-left">
-                        <div class="formacao1">
-                            <h1 class="n1e">Profissional em Analise e Desenvolvimento de Sistemas</h1>
-                            <h1 class="n2e">Fatec Arthur de Azevedo</h1>
-                            <h1 class="n3e">3 anos, 2023-2026</h1>
+        <div class="barrastatus" id="detalhes">
+            <div class="status1">
+                <div class="conteudo1">
+                    <div class="dentro-cont">
+                        <img class="icons-cont" src="img/book-svgrepo-com.svg" alt="">
+                        <h1>+40</h1>
+                        <div class="mensagem-cont" id="click">
+                            <p>PROJETOS</p>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="emotes">
-                <div class="emoje">
-                    <img src="img/undraw_studying_re_deca.svg" alt="">
+            <div class="status2">
+                <div class="conteudo1">
+                    <div class="dentro-cont">
+                        <img class="icons-cont" src="img/timer-svgrepo-com.svg" alt="">
+                        <h1>+2</h1>
+                        <div class="mensagem-cont" id="click2">
+                            <p>TEMPO</p>
+                        </div>
+                    </div>
                 </div>
-                <div class="emoje2">
-                    <img src="img/undraw_certificate_re_yadi.svg" alt="">
+            </div>
+            <div class="status3">
+                <div class="conteudo1">
+                    <div class="dentro-cont">
+                        <img class="icons-cont" src="img/graduation-svgrepo-com.svg" alt="">
+                        <h1>+3</h1>
+                        <div class="mensagem-cont" id="click3">
+                            <p>CURSOS</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-
-    </div>
+    
+        <div class="parte5" id="formacao">
+            <div class="titulo-parte5">
+                <h1>MINHA <span class="logo-cor4">FORMAÇÃO</span></h1>
+            </div>
+            <div class="tudo-parte5">
+                <div class="quebra">
+                    <div class="block1-q">
+                        <div data-aos="zoom-in-right">
+                            <div class="formacao1">
+                                <h1 class="n1e">Ensino Médio Técnico</h1>
+                                <h1 class="n2e">Etec Euro Albino de Souza</h1>
+                                <h1 class="n3e">3 anos, 2020-2022</h1>
+                            </div>
+                        </div>
+                        <div data-aos="zoom-in-left">
+                            <div class="formacao1">
+                                <h1 class="n1e">Técnico em Eletrônica </h1>
+                                <h1 class="n2e">Etec Euro Albino de Souza</h1>
+                                <h1 class="n3e">3 anos, 2020-2022</h1>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="block2-q">
+                        <div data-aos="zoom-in-right">
+                            <div class="formacao1">
+                                <h1 class="n1e">Técnico em Desenvolvimento de Sistemas</h1>
+                                <h1 class="n2e">Etec Euro Albino de Souza</h1>
+                                <h1 class="n3e">1 ano e meio, 2021-2022</h1>
+                            </div>
+                        </div>
+                        <div data-aos="zoom-in-left">
+                            <div class="formacao1">
+                                <h1 class="n1e">Profissional em Analise e Desenvolvimento de Sistemas</h1>
+                                <h1 class="n2e">Fatec Arthur de Azevedo</h1>
+                                <h1 class="n3e">3 anos, 2023-2026</h1>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="emotes">
+                    <div class="emoje">
+                        <img src="img/undraw_studying_re_deca.svg" alt="">
+                    </div>
+                    <div class="emoje2">
+                        <img src="img/undraw_certificate_re_yadi.svg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+   
     <footer id="contato">
         <div class="contato">
             <div class="alinha-contato">
@@ -317,20 +321,17 @@
                             <p>(+55) 19 99130-3806</p>
                         </a>
                     </div>
-    
                 </div>
             </div>
         </div>
     </footer>
 
-
-
     <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script src="js/projetos.js"></script>
     <script src="js/skills.js"></script>
-    <script src="js/alerts.js"></script>
+    <script src="js/animacoes.js"></script>
     <script src="js/menu.js"></script>
-    <script src="js/mensagens.js"></script>
+    <script src="js/tema.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
         AOS.init();

@@ -71,6 +71,7 @@
 
 .ulmenu{
     display: flex;
+    align-items: center;
     width: 42rem;
     justify-content: space-between;
 }
@@ -92,15 +93,15 @@
 }
 
 .logo h1{
-    color: var(--quaternary-color);
     font-family: var(--font-family);
+    color: var(--quaternary-color);
     font-size: 1.5rem;
     font-weight: 600;
 }
 
 .logo-cor{
-    color: var(--secondary-color);
     font-family: var(--font-family);
+    color: var(--secondary-color);
     font-size: 1.5rem;
     font-weight: 600;
 }

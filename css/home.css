@@ -4,9 +4,10 @@
 }
 
 .minha-img img{
-    border: 5px solid;
+    border: 5px solid var(--primary-color);
     border-radius: 1rem;
 }
+
 .texto-animado{
     margin-top: -0.5rem;
 }
@@ -20,11 +21,11 @@
 
 .meu-nome h1{
     font-size: 2rem;
+    color: var(--quaternary-color);
     max-width: 23rem;
     text-align: center;
     font-weight: 600;
     line-height: 3.3rem;
-    color: var(--quaternary-color);
     font-family: var(--font-family);
 }
 
@@ -52,7 +53,6 @@
     to {border-right-color: transparent;}
 }
 
-
 .icons-redes{
     display: flex;
     align-items: center;
@@ -65,6 +65,7 @@ ul{
     margin: 0;
     padding: 0; 
 }
+
 .icons-redes li {
    text-align: center;
    list-style: none;
@@ -81,6 +82,7 @@ ul{
     height: 2rem;
     cursor: pointer;
 }
+
 .icon1:hover{
     background-color: var(--secondary-color);
     transition: 1s;

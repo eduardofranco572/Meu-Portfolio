@@ -1,4 +1,4 @@
-@media (max-width: 1439px){
+@media (max-width: 1439px) {
     .parte1 {
         width: 100%;
         height: 36rem;
@@ -7,19 +7,24 @@
         background-size: 100%;
         border-radius: 0rem 0rem 5rem 5rem;
     }
+
     .minha-img img {
         width: 12rem;
     }
+
     .img-lada1 img {
         margin-left: 6rem;
     }
+
     .img-lada2 img {
         margin-top: -8rem;
         margin-left: 5rem;
     }
+
     .titulo-parte2 h1 {
         font-size: 1.5rem;
     }
+
     .parte3 {
         width: 100%;
         height: 91rem;
@@ -28,13 +33,15 @@
         background-attachment: fixed;
         background-size: cover;
     }
+
     iframe {
         width: 50rem;
         height: 26rem;
         border-radius: 2rem;
         border: 4px solid;
     }
-    .emotes{
+
+    .emotes {
         display: none;
     }
 
@@ -45,7 +52,8 @@
         margin-top: 2rem;
     }
 
-    .block1-q, .block2-q {
+    .block1-q,
+    .block2-q {
         flex-direction: column;
     }
 
@@ -53,11 +61,18 @@
         width: 24rem;
         height: 6rem;
     }
-    .im1, .im2, .im3, .im4, .im5, .im6 {
+
+    .im1,
+    .im2,
+    .im3,
+    .im4,
+    .im5,
+    .im6 {
         width: 24rem;
         height: 14rem;
         border-radius: 2rem 2rem 0rem 0rem;
     }
+
     .wrapper {
         display: flex;
         flex-direction: column;
@@ -66,27 +81,36 @@
         padding: 0rem;
         margin: 2rem 0rem 0rem 0rem;
     }
+
     .grupo-projeto {
         justify-content: center;
     }
+
     .grupo-projeto {
         display: flex;
         width: 100%;
     }
 }
 
-@media (max-width: 1024px){
+@media (max-width: 1024px) {
     .meu-nome h1 {
         font-size: 1rem;
     }
+
     .minha-img img {
         width: 9rem;
     }
+
+    .texto1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 }
 
-@media (max-width: 786px){
+@media (max-width: 786px) {
 
-    .parte1{
+    .parte1 {
         width: 100%;
         height: 32rem;
         background-image: url(../img/Of.png);
@@ -94,6 +118,7 @@
         background-size: cover;
         border-radius: 0rem 0rem 3rem 3rem;
     }
+
     .meu-nome h1 {
         font-size: 1.5rem;
     }
@@ -105,7 +130,6 @@
     }
 
     .logo h1 {
-        color: var(--quaternary-color);
         font-family: var(--font-family);
         font-size: 22px;
         font-weight: 600;
@@ -117,24 +141,35 @@
         width: 100%;
         justify-content: space-between;
     }
+
     .logo-cor {
         color: var(--secondary-color);
         font-family: var(--font-family);
         font-size: 22px;
         font-weight: 600;
     }
+
     .ulmenu {
         display: none;
     }
-    .menu-section{
+
+    .menu-section {
         display: block;
     }
-    .menu-toggle{
+
+    .menu-toggle {
         display: block;
     }
- 
+
     .doisemum {
         display: none;
+    }
+
+    .menu-section.on ul {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        width: 100%;
     }
 
     .alinhamento {
@@ -143,6 +178,7 @@
         width: 100%;
         margin: 0rem 3rem 0rem 3rem;
     }
+
     .conteiner-parte2 {
         display: flex;
         flex-direction: column;
@@ -150,7 +186,6 @@
     }
 
     .titulo-parte2 h1 {
-        color: var(--tertiary-color);
         font-family: var(--font-family);
         font-size: 1.5rem;
         font-weight: 600;
@@ -159,12 +194,12 @@
 
     .texto1 p {
         max-width: 18rem;
-        color: var(--tertiary-color);
         font-family: var(--font-family);
         font-size: 1rem;
         font-weight: 400;
         text-align: center;
     }
+
     .infos-tudo {
         display: flex;
         flex-direction: column;
@@ -197,7 +232,8 @@
         border: 2px solid;
     }
 
-    .titulo2-parte4 h1, .titulo2-parte4 a{
+    .titulo2-parte4 h1,
+    .titulo2-parte4 a {
         font-size: 1rem;
         max-width: 19rem;
     }
@@ -207,13 +243,21 @@
         width: 100%;
         flex-direction: column;
     }
-    .im1, .im2, .im3, .im4, .im5, .im6 {
+
+    .im1,
+    .im2,
+    .im3,
+    .im4,
+    .im5,
+    .im6 {
         width: 20rem;
         height: 11rem;
     }
+
     .baixo-porjeto {
         width: 20rem;
     }
+
     .barrastatus {
         background-color: var(--primary-color);
         display: flex;
@@ -227,20 +271,25 @@
         margin-top: 5rem;
     }
 
-    .emotes{
+    .emotes {
         display: none;
     }
 
-    .block1-q, .block2-q{
+    .block1-q,
+    .block2-q {
         flex-direction: column;
     }
+
     .n1e {
         font-size: 0.7rem;
         font-weight: 900;
     }
-    .n2e, .n3e {
+
+    .n2e,
+    .n3e {
         font-size: 0.6rem;
     }
+
     .formacao1 {
         display: flex;
         justify-content: center;
@@ -249,6 +298,7 @@
         width: 13rem;
         height: 6rem;
     }
+
     .tudo-parte5 {
         justify-content: center;
     }
@@ -286,21 +336,27 @@
         width: inherit;
     }
 
-    .logo{
+    .logo {
         margin-left: 1rem;
     }
+
     .menu-section.on .menu-toggle {
         position: absolute;
         right: 0px;
         top: 11px;
     }
+
     .wrapper {
         display: initial;
+    }
+
+    .carouselMark{  
+        display: none;
     }
 }
 
 
-@media (max-width: 518px){
+@media (max-width: 518px) {
     .parte3 {
         width: 100%;
         height: 123rem;
@@ -308,8 +364,8 @@
         background-repeat: no-repeat;
         background-size: cover;
     }
+
     .wrapper {
         display: initial;
     }
 }
-

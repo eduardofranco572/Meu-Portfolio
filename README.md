@@ -5,14 +5,14 @@ Olá, Meu nome é Eduardo e esse é o projeto do meu web site - Portfolio. aonde
 <br>
  <div align="center">
     <h1>Meu Site:</h1>
-   https://eduardofranco572.github.io/Meu-Portfolio/
-   <br>
-   
-   <h1>Imagens do Site</h1>
-   <img src="imgprojeto.jpg">
-  <br>
-  <br>
-   <img src="imgprojeto2.jpg">
+    <br>
+    <h1>Imagens do Site</h1>
+    <img src="img1.jpg">
+    <br>
+    <br>
+    <img src="img2.jpg">
+    <br>
+    <img src="img3.jpg">
 </div>
 <br>
   Aqui são umas das linguagens de progamação que tenho conhecimento. e que utilizo para criar meus sites 💻

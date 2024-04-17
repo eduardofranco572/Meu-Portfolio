@@ -2,7 +2,73 @@ body{
     margin: 0;
     padding: 0;
     overflow: initial;
+    color: var(--primary-color);
 }
+
+body.dark{
+    background-color: var(--background-dark);
+    color: var(--quaternary-color);
+}
+
+body::-webkit-scrollbar {
+    width: 12px;           
+}
+
+body::-webkit-scrollbar-track {
+    background: var(--primary-color);        
+}
+  
+body::-webkit-scrollbar-thumb {
+    background-color: var(--quaternary-color);            
+}
+
+body::-webkit-scrollbar-thumb:hover {
+    background-color: #898989; 
+}
+
+.btnMode{
+    opacity: 0;
+    position: absolute;
+}
+
+.label{
+    background-color: var(--background-dark);
+    border-radius: 1rem;
+    cursor: pointer;
+    user-select: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4px;
+    position: relative;
+    height: 23px;
+    width: 3rem;
+}
+
+.label .ball{
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    height: 26px;
+    width: 27px;
+    transform: translateX(0);
+    transition: transform 0.2s linear;
+}
+
+.btnMode:checked + .label .ball {
+    transform: translateX(24px);
+}
+
+.fa-moon {
+    color: white;
+}
+
+.fa-sun {
+    color: white;
+}
+
 .parte1{
     width: 100%;
     height: 47rem;
@@ -15,6 +81,7 @@ body{
 .parte2{
     display: flex;
     justify-content: center;
+    margin-top: 2rem;
 }
 
 .parte3{
@@ -24,6 +91,7 @@ body{
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100%;
+    margin-top: 2rem;
 }
 
 .barrastatus{
@@ -40,24 +108,27 @@ body{
 }
 
 .conteudo1 h1{
-    text-align: center;
     color: var(--quaternary-color);
     text-align: center;
     font-family: var(--font-family);
     font-size: 2rem;
     font-weight: 600;
-
 }
 
 .conteudo1 p{
-    color: var(--quaternary-color);
     text-align: center;
+    color: var(--quaternary-color);
     font-size: 1rem;
     font-family: var(--font-family);
     font-size: 1rem;
     font-weight: 600;
     text-transform: uppercase;
     max-width: 15rem;
+}
+
+.conteudo1 p:hover{
+    transform: scale(1.2);
+    transition: 0.2s;
 }
 
 .icons-cont{
@@ -68,6 +139,7 @@ body{
     display: flex;
     justify-content: center;
 }
+
 .dentro-cont{
     display: flex;
     flex-direction: column;
@@ -100,3 +172,4 @@ body{
 .parte5{
    margin-top: 2rem;
 }
+

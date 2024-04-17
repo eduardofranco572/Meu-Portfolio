@@ -1,10 +1,17 @@
 $(document).ready(() => {
-    const projetos = ['Front-End-Spotify', 'Carrossel', 'PlayStation-Dashboard', 'Streaming_Movie', 'Loja de Roupa', 'TCC-DS']
-    const links = ['https://github.com/eduardofranco572/Front-End-Spotify', 'https://github.com/eduardofranco572/Carrossel', 'https://github.com/eduardofranco572/PlayStation-Dashboard', 'https://github.com/eduardofranco572/Streaming_Movie', 'https://github.com/eduardofranco572/Story_Geek', 'https://github.com/eduardofranco572/TCC-DS']
+    const projetos = ['FrontEnd Spotify', 'FrontEnd Car Hotsite', 'PlayStation Dashboard', 'Streaming Movie', 'Loja de Roupa', 'TCC DS']
+    const links = [
+        'https://github.com/eduardofranco572/Front-End-Spotify',
+        'https://github.com/eduardofranco572/Front-End-Car-Hotsite',
+        'https://github.com/eduardofranco572/PlayStation-Dashboard',
+        'https://github.com/eduardofranco572/Streaming_Movie',
+        'https://github.com/eduardofranco572/Story_Geek',
+        'https://github.com/eduardofranco572/TCC-DS'
+    ]
 
     for (let j = 1; j < 7; j++) {
         let projeto = `
-            <div class="wrapper">
+            <div class="wrapper" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
                 <img class="im${j}" src="img/img-projetos/img${j}.png">
                 <div class="baixo-porjeto" id="baixo${j}">
                     <div class="responsivo">
@@ -39,7 +46,7 @@ $(document).ready(() => {
             $(div).css('marginTop', '-8rem')
             $(div).css('position', 'relative')
             $(div).css('transition', '0.5s')
-            $(div3).css('display', 'block')
+            $(div3).fadeIn(2000);
             $(this).children().html('-')
 
         } else {

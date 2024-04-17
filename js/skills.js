@@ -4,7 +4,7 @@ $(document).ready(() => {
 
     for (let j = 1; j < 13; j++) {
         let projeto = `
-        <div class="teste2323"data-aos="fade-up" data-aos-anchor-placement="center-bottom">
+        <div class="teste2323" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
             <div class="card1">
                 <div class="junta">
                     <div class="elements">

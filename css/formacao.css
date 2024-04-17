@@ -1,17 +1,16 @@
-
-.titulo-parte5{
+.titulo-parte5 {
     display: flex;
     justify-content: center;
 }
-.titulo-parte5 h1{
-    color: var(--tertiary-color);
+
+.titulo-parte5 h1 {
     margin-top: 2rem;
     font-family: var(--font-family);
     font-size: 2rem;
     font-weight: 600;
 }
 
-.formacao1{
+.formacao1 {
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -24,19 +23,21 @@
     border-radius: 1rem;
 }
 
-.tudo-parte5{
+.tudo-parte5 {
     display: flex;
     justify-content: center;
     width: 100%;
     align-items: center;
 }
-.quebra{
+
+.quebra {
     display: flex;
     flex-direction: column;
     width: 70%;
     margin-top: 4rem;
 }
-.n1e{
+
+.n1e {
     color: var(--quaternary-color);
     font-family: var(--font-family);
     font-size: 1.2rem;
@@ -45,31 +46,32 @@
     text-align: center;
 }
 
-.n2e, .n3e{
+.n2e,
+.n3e {
     color: var(--quaternary-color);
     font-family: var(--font-family);
     font-size: 1rem;
     max-width: 21rem;
 }
 
-.block1-q{
+.block1-q {
     display: flex;
     justify-content: center;
 }
 
-.block2-q{
+.block2-q {
     display: flex;
     justify-content: center;
     margin-top: 2rem;
 }
 
-.emoje img{
+.emoje img {
     width: 17rem;
     height: 100%;
     margin-left: 8rem;
 }
 
-.emoje2 img{
+.emoje2 img {
     width: 11rem;
     height: 100%;
     margin-top: -8.3rem;
