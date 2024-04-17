@@ -7,12 +7,11 @@ Olá, Meu nome é Eduardo e esse é o projeto do meu web site - Portfolio. aonde
     <h1>Meu Site:</h1>
     <br>
     <h1>Imagens do Site</h1>
-    <img src="img1.jpg">
+    <img src="img1.png">
     <br>
+    <img src="img2.png">
     <br>
-    <img src="img2.jpg">
-    <br>
-    <img src="img3.jpg">
+    <img src="img3.png">
 </div>
 <br>
   Aqui são umas das linguagens de progamação que tenho conhecimento. e que utilizo para criar meus sites 💻
