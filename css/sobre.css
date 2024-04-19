@@ -151,7 +151,11 @@
     height: 17rem;
     margin-right: 4rem;
     border-radius: 3rem;
-    box-shadow: -10px 0px 13px -7px rgb(206 206 206 / 25%), 10px 0px 13px -7px rgb(206 206 206 / 25%), 1px 4px 10px -2px rgb(206 206 206 / 25%);
+    box-shadow: -10px 0px 13px -7px rgb(206 206 206 / 25%),
+                10px 0px 13px -7px rgb(206 206 206 / 25%),
+                1px 4px 10px -2px rgb(206 206 206 / 25%);
+    position: relative;
+    z-index: 1;
 }
 
 .img-lada2 img {
@@ -159,24 +163,31 @@
     height: 17rem;
     margin-top: -7rem;
     border-radius: 3rem;
-    box-shadow: -10px 0px 13px -7px rgb(206 206 206 / 25%), 10px 0px 13px -7px rgb(206 206 206 / 25%), 1px 4px 10px -2px rgb(206 206 206 / 25%);
+    box-shadow: -10px 0px 13px -7px rgb(206 206 206 / 25%),
+                10px 0px 13px -7px rgb(206 206 206 / 25%),
+                1px 4px 10px -2px rgb(206 206 206 / 25%);
+    position: relative;
+    z-index: 2;
 }
 
 .img-lada1 img:hover{
-    transition: 0.4s;
     position: relative;
-    animation: animImg 1s;
-    box-shadow: -10px 0px 13px 2px rgb(206 206 206 / 25%), 10px 0px 13px 4px rgb(206 206 206 / 25%), 1px 4px 10px 3px rgb(206 206 206 / 25%);
+    z-index: 3;
+    animation: animImg 1s ease-in-out;
+    box-shadow: -10px 0px 13px 2px rgb(206 206 206 / 25%),
+                10px 0px 13px 4px rgb(206 206 206 / 25%),
+                1px 4px 10px 3px rgb(206 206 206 / 25%);
 }
 
 @keyframes animImg {
     0% {
         top: 0rem;
-        position: static;
+        z-index: 1;
     }
 
     50%{
-        top: -7rem; 
+        top: -8rem; 
+        z-index: 3;
     }
 
     100% {
