@@ -5,7 +5,7 @@ Olá, Meu nome é Eduardo e esse é o projeto do meu web site - Portfolio. aonde
 <br>
  <div align="center">
     <h1>Meu Site:</h1>
-    <h1>https://portfolioeduardofranco.netlify.app/</h1>
+    <h2>https://portfolioeduardofranco.netlify.app/</h2>
     <br>
     <h1>Imagens do Site</h1>
     <img src="img1.png">
