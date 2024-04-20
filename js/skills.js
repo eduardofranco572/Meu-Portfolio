@@ -1,8 +1,8 @@
 $(document).ready(() => {
-    const titulos = ['jQuery', 'JavaScript', 'CSS3', 'HTML5', 'MySQL', 'C/C++', 'C Sharp', 'React Native', 'Bootstrap', 'React', 'PHP', 'NodeJs']
-    const niveis = ['MEDIO', 'ALTO', 'ALTO', 'ALTO', 'MEDIO', 'BAIXO', 'BAIXO', 'MEDIO', 'MEDIO', 'MEDIO', 'ALTO', 'MEDIO']
+    const titulos = ['jQuery', 'JavaScript', 'CSS3', 'HTML5', 'MySQL', 'C/C++', 'C Sharp', 'React Native', 'Bootstrap', 'React', 'PHP', 'NodeJs', 'TypeScript']
+    const niveis = ['MEDIO', 'ALTO', 'ALTO', 'ALTO', 'MEDIO', 'BAIXO', 'BAIXO', 'MEDIO', 'MEDIO', 'MEDIO', 'ALTO', 'MEDIO','BAIXO']
 
-    for (let j = 1; j < 13; j++) {
+    for (let j = 1; j < 14; j++) {
         let projeto = `
         <div class="teste2323" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
             <div class="card1">
