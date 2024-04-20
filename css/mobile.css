@@ -1,3 +1,9 @@
+@media (max-width: 2560px) {
+    .alinhamento {
+        display: flex;
+        justify-content: space-evenly;
+    }
+}
 @media (max-width: 1439px) {
     .parte1 {
         width: 100%;
