@@ -59,7 +59,9 @@ iframe{
 .cards-pr-alinhamento{
     display: flex;
     flex-direction: column;
-    max-width: 68rem;
+    justify-content: center;
+    align-items: center;
+    max-width: 60%;
     margin-top: 1rem;
 }
 

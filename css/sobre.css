@@ -36,61 +36,17 @@
     align-items: center;
 }
 
-
-.linguagensProf span {
-    visibility: hidden; 
-    opacity: 0; 
-}
-
-.linguagensProf.animar span {
-    visibility: visible;
-    opacity: 1;
-    animation: prof-entrada 1s;
-}
-
-@keyframes prof-entrada {
-    0% {
-        opacity: 0;
-        transform: translateX(-50rem);
-    }
-
-    100% {
-        opacity: 1;
-        transform: translateX(0);
-    }
-}
-
-/* Estilos de animação específicos */
 .linguagensProf span {
     background-color: var(--quinternary-color);
     padding: 8px;
-    border-radius: 0.5rem;
+    border-radius: 5px;
     margin-right: 1rem;
     font-family: var(--font-titles);
     font-size: 14px;
     color: white;
     cursor: default;
-    position: relative;
-    left: 0;
-    animation: prof 1s;
+    border: 1px solid white;
 }
-
-.linguagensProf span:nth-child(5n) {
-    animation-duration: 4s;
-}
-
-.linguagensProf span:nth-child(4n) {
-    animation-duration: 4s;
-}
-
-.linguagensProf span:nth-child(3n) {
-    animation-duration: 3s;
-}
-
-.linguagensProf span:nth-child(2n) {
-    animation-duration: 2s;
-}
-
 
 .infos-tudo {
     display: flex;

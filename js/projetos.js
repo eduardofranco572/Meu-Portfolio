@@ -1,19 +1,21 @@
 $(document).ready(() => {
     const projetos = [
         'Real Time Chat', 
+        'Banco Digital',
         'FrontEnd Spotify',
-        'FrontEnd Car Hotsite', 
         'Streaming Movie', 
         'TCC DS',
-        'PlayStation Dashboard' 
+        'FrontEnd Car Hotsite',    
     ];
+    
     const links = [
         'https://github.com/eduardofranco572/Real-Time-Chat',
+        'https://github.com/eduardofranco572/aplicacao-front-end',
         'https://github.com/eduardofranco572/Front-End-Spotify',
-        'https://github.com/eduardofranco572/Front-End-Car-Hotsite',
         'https://github.com/eduardofranco572/Streaming_Movie',
         'https://github.com/eduardofranco572/TCC-DS',
-        'https://github.com/eduardofranco572/PlayStation-Dashboard'
+        'https://github.com/eduardofranco572/Front-End-Car-Hotsite',
+        
     ];
 
     for (let j = 1; j <= projetos.length; j++) {

@@ -65,15 +65,7 @@
     margin-top: 2rem;
 }
 
-.emoje img {
-    width: 17rem;
+.emotes img{
+    width: 24rem;
     height: 100%;
-    margin-left: 8rem;
-}
-
-.emoje2 img {
-    width: 11rem;
-    height: 100%;
-    margin-top: -8.3rem;
-    margin-left: -2rem;
 }

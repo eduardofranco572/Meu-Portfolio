@@ -16,7 +16,7 @@ $(document).ready(() => {
         'HTML5'   
     ]
 
-    const niveis = ['5', '4', '5', '4', '4', '3', '3', '3', '3', '4', '4', '4', '5', '5']
+    const niveis = ['5', '5', '5', '4', '5', '3', '3', '3', '3', '4', '4', '4', '5', '5']
 
     const linksimgs =[
         "devicon-javascript-plain colored",
