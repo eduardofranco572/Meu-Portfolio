@@ -11,7 +11,7 @@ $(document).ready(function() {
 
     $("#click2").click(function() {
         Swal.fire({
-            html: '<h1 class="alerttitulo"> Tenho mais de 2 anos de conhecimento como desenvolvedor!</h1>'
+            html: '<h1 class="alerttitulo"> Tenho mais de 3 anos de conhecimento como desenvolvedor!</h1>'
         });
     });
 

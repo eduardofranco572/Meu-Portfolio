@@ -4,6 +4,7 @@
     font-size: 2rem;
     font-weight: 600;
 }
+
 .titulo-parte4{
     display: flex;
     justify-content: center;
@@ -58,7 +59,7 @@ iframe{
 .cards-pr-alinhamento{
     display: flex;
     flex-direction: column;
-    width: 68rem;
+    max-width: 68rem;
     margin-top: 1rem;
 }
 
@@ -74,20 +75,10 @@ iframe{
     border-radius: 2rem 2rem 0rem 0rem;
 }
 
-.baixo-porjeto{
+.baixo-projeto{
     background-color: var(--primary-color);
     width: 100%;
-    height: 6rem;
-    margin-top: -1rem;
     border-radius: 0rem 0rem 2rem 2rem;
-}
-
-
-.dentro-baixo{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin: 0rem 2rem 0rem 2rem;
 }
 
 .txtsdentro{
@@ -95,6 +86,7 @@ iframe{
     font-family: var(--font-family);
     font-size: 1rem;
     font-weight: 600;
+    margin: 1.3rem;
 
 }
 
@@ -112,7 +104,7 @@ iframe{
 }
 .im1,.im2,.im3,.im4,.im5,.im6{
     width: 100%;
-    height: 14rem;
+    height: 100%;
     border-radius: 2rem 2rem 0rem 0rem;
 }
 
@@ -125,19 +117,16 @@ iframe{
 .acessar {
     display: flex;
     justify-content: center;
-    margin-top: 2rem;
     align-items: center;
     cursor: pointer;
-    animation: ap 0.2s linear;
 }
 
-@keyframes ap {
-    0%{
-        opacity: 0;
-    }
-    100%{
-        opacity: 1;
-    }
+.responsivo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
 }
 
 .ace{
@@ -158,10 +147,6 @@ iframe{
     text-decoration: none;
 }
 
-.animado{
-    display: none;
-}
-
 .grupo-projeto{
     display: flex;
     flex-wrap: wrap;
@@ -169,9 +154,18 @@ iframe{
 }
 
 .wrapper{
-    box-sizing: border-box;
-    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     margin: 1rem;
-    width: calc((100% / 2) - 2rem); /* calco para descontar a margem da largura do box se aumenta a marge tem que ajustar aqui tb */
+    width: calc((100% / 2) - 2rem);
+    max-width: 26rem;
+    max-height: 20rem;
+}
+
+.wrapper img:hover{
+    cursor: pointer;
+    filter: blur(2px);
+    transition: 0.3s;
 }
 

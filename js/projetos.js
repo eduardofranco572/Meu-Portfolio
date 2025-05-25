@@ -1,62 +1,34 @@
 $(document).ready(() => {
-    const projetos = ['FrontEnd Spotify', 'FrontEnd Car Hotsite', 'PlayStation Dashboard', 'Streaming Movie', 'Loja de Roupa', 'TCC DS']
+    const projetos = [
+        'Real Time Chat', 
+        'FrontEnd Spotify',
+        'FrontEnd Car Hotsite', 
+        'Streaming Movie', 
+        'TCC DS',
+        'PlayStation Dashboard' 
+    ];
     const links = [
+        'https://github.com/eduardofranco572/Real-Time-Chat',
         'https://github.com/eduardofranco572/Front-End-Spotify',
         'https://github.com/eduardofranco572/Front-End-Car-Hotsite',
-        'https://github.com/eduardofranco572/PlayStation-Dashboard',
         'https://github.com/eduardofranco572/Streaming_Movie',
-        'https://github.com/eduardofranco572/Story_Geek',
-        'https://github.com/eduardofranco572/TCC-DS'
-    ]
+        'https://github.com/eduardofranco572/TCC-DS',
+        'https://github.com/eduardofranco572/PlayStation-Dashboard'
+    ];
 
-    for (let j = 1; j < 7; j++) {
-        let projeto = `
+    for (let j = 1; j <= projetos.length; j++) {
+        const projetoHTML = `
             <div class="wrapper" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
-                <img class="im${j}" src="img/img-projetos/img${j}.png">
-                <div class="baixo-porjeto" id="baixo${j}">
+                <a class="link-projeto" target="_blank" rel="noreferrer" href="${links[j - 1]}">
+                    <img class="im${j}" src="img/img-projetos/img${j}.png" alt="${projetos[j - 1]}">
+                </a>
+                <div class="baixo-projeto" id="baixo${j}">
                     <div class="responsivo">
-                        <div class="dentro-baixo">
-                            <h1 class="txtsdentro">${projetos[j - 1]}</h1>
-                            <div>
-                                <h1 class="sinal"><span id="mais${j}">+</span></h1>
-                            </div>
-                        </div>
-                        <div class="animado" id="animados${j}">
-                            <div class="acessar">
-                                <h1 class="ace"><a target="_blank" rel="noreferrer" href="${links[j - 1]}">Acessar</a></h1>
-                                <a target="_blank" rel="noreferrer" href="${links[j - 1]}"><img src="img/folder-svgrepo-com.svg"></a>
-                            </div>
-                        </div>
+                        <h1 class="txtsdentro">${projetos[j - 1]}</h1>
                     </div>
                 </div>
             </div>
-        `
-        $('.grupo-projeto').append(projeto);
+        `;
+        $('.grupo-projeto').append(projetoHTML);
     }
-})
-$(document).ready(() => {
-    $('.sinal').on('click', function () {
-        let div = $(this).parent().parent().parent().parent();
-        let div2 = $(this).parent().parent().parent().parent().siblings();
-        let div3 = $(this).parent().parent().parent().children('.animado')
-        
-        if ($(this).children().html() == '+') {
-            $(div2).css('filter', 'blur(1px)')
-            $(div).css('height', '12rem')
-            $(div).css('marginTop', '-8rem')
-            $(div).css('position', 'relative')
-            $(div).css('transition', '0.5s')
-            $(div3).fadeIn(2000);
-            $(this).children().html('-')
-
-        } else {
-            $(div2).css('filter', 'blur(0px)')
-            $(div).css('height', '6rem')
-            $(div).css('marginTop', '-1rem')
-            $(div).css('position', 'relative')
-            $(div).css('transition', '0.5s')
-            $(div3).css('display', 'none')
-            $(this).children().html('+')
-        }
-    })
-})
+});
