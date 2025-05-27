@@ -1,7 +1,8 @@
 footer{
     background-color: var(--primary-color);
     width: 100%;
-    height: 30rem;
+    height: 100%;
+    margin-top: 2rem;
 }
 
 .contato{
@@ -27,6 +28,7 @@ footer{
     display: flex;
     justify-content: space-evenly;
     margin-top: 5rem;
+    margin-bottom: 3rem;
 }
 
 

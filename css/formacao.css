@@ -14,7 +14,7 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
-    margin: 3rem;
+    margin: 2rem 1rem;
     width: 25rem;
     background-color: var(--primary-color);
     height: 11rem;
@@ -62,7 +62,6 @@
 .block2-q {
     display: flex;
     justify-content: center;
-    margin-top: 2rem;
 }
 
 .emotes img{

@@ -104,6 +104,7 @@
         flex-direction: column;
         align-items: center;
     }
+
     .wrapper {
         display: flex;
         flex-direction: column;
@@ -111,6 +112,10 @@
         box-sizing: border-box;
         padding: 0rem;
         width: 60%;
+    }
+
+    .carouselMark{  
+        display: none;
     }
 }
 
@@ -224,7 +229,7 @@
         justify-content: center;
         flex-direction: column;
         margin: 1rem;
-        width: 14rem;
+        max-width: 16rem;
         background-color: var(--primary-color);
         height: 7rem;
         border: 2px solid rgb(85 85 85 / 72%);
@@ -271,13 +276,13 @@
     }
 
     .n1e {
-        font-size: 0.7rem;
+        font-size: 16px;
         font-weight: 900;
     }
 
     .n2e,
     .n3e {
-        font-size: 0.6rem;
+        font-size: 14px;
     }
 
     .formacao1 {
@@ -285,8 +290,7 @@
         justify-content: center;
         flex-direction: column;
         margin-top: 1rem;
-        width: 13rem;
-        height: 6rem;
+        width: 80%;
     }
 
     .tudo-parte5 {
@@ -343,6 +347,19 @@
     .cards-pr-alinhamento{
         max-width: 90%;
     }
+
+    .nivel {
+        margin: 0.5rem 0.5rem 0rem 0rem;
+    }
+
+    .elements i {
+        font-size: 2rem;
+    }
+
+    .txt2 {
+        margin-left: 10px;
+        font-size: 15px;
+    }
 }
 
 
@@ -353,5 +370,13 @@
         background-image: url(../img/night_city_window_rain.jpg);
         background-repeat: no-repeat;
         background-size: cover;
+    }
+
+    .card1 {
+        max-width: 14rem;
+    }
+
+    .wrapper {
+        width: 80%;
     }
 }
