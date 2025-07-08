@@ -1,21 +1,20 @@
 $(document).ready(() => {
     const projetos = [
-        'Real Time Chat', 
+        'Real Time Chat',
+        'Plataforma de Game Jams', 
         'Banco Digital',
         'FrontEnd Spotify',
         'Streaming Movie', 
-        'TCC DS',
-        'FrontEnd Car Hotsite',    
+        'TCC DS'   
     ];
     
     const links = [
         'https://github.com/eduardofranco572/Real-Time-Chat',
+        'https://github.com/Projeto-POO-Jam/Projeto-POO',
         'https://github.com/eduardofranco572/aplicacao-front-end',
         'https://github.com/eduardofranco572/Front-End-Spotify',
         'https://github.com/eduardofranco572/Streaming_Movie',
-        'https://github.com/eduardofranco572/TCC-DS',
-        'https://github.com/eduardofranco572/Front-End-Car-Hotsite',
-        
+        'https://github.com/eduardofranco572/TCC-DS'
     ];
 
     for (let j = 1; j <= projetos.length; j++) {

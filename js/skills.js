@@ -7,6 +7,7 @@ $(document).ready(() => {
         'React',
         'React Native',
         'Java',
+        'Spring Boot',
         'C/C++', 
         'C Sharp',
         'PHP',        
@@ -16,7 +17,7 @@ $(document).ready(() => {
         'HTML5'   
     ]
 
-    const niveis = ['5', '5', '5', '4', '5', '3', '3', '3', '3', '4', '4', '4', '5', '5']
+    const niveis = ['5', '5', '5', '4', '5', '3', '4', '3', '3', '3', '4', '4', '4', '5', '5']
 
     const linksimgs =[
         "devicon-javascript-plain colored",
@@ -26,6 +27,7 @@ $(document).ready(() => {
         "devicon-react-original colored",
         "devicon-react-original colored",
         "devicon-java-plain",
+        "devicon-spring-original colored",
         "devicon-cplusplus-plain colored",
         "devicon-csharp-plain colored",
         "devicon-php-plain colored",
