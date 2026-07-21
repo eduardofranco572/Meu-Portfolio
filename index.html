@@ -41,6 +41,14 @@
 </head>
 <body>
     <main>
+        <div id="modalPortfolio" class="modal-overlay">
+            <div class="modal-content">
+                <button class="close-btn" onclick="fecharModal()">✕</button>
+                <h2>Novo Portfólio!</h2>
+                <p>O design e os projetos foram atualizados. Acesse a nova versão da aplicação para conferir as novidades.</p>
+                <a href="https://portfolio-jade-kappa-xz3bgb7vm6.vercel.app/" target="_blank" class="btn-link">Acessar Novo Portfólio</a>
+            </div>
+        </div>
         <div class="parte1">
             <div class="menu">
                 <div class="conteiner-menu">
@@ -335,7 +343,14 @@
         AOS.init();
     </script>
     <script>
-         gsap.registerPlugin(ScrollTrigger);
+        function fecharModal() {
+            const modal = document.getElementById('modalPortfolio');
+            if (modal) {
+                modal.style.display = 'none';
+            }
+        }
+
+        gsap.registerPlugin(ScrollTrigger);
 
         gsap.from("#linguagensProf span", {
             scrollTrigger: {
@@ -350,6 +365,10 @@
             stagger: 0.15
         });
     </script>
+
+
+
+    
 </body>
 
 </html>
